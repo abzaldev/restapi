@@ -38,7 +38,6 @@ GET /summary?name=John&page=0&size=5&sortBy=name&direction=asc
 #### Get Employee details with Items by ID
 ```
 GET /api/employees/1/details
-
 ```
 
 #### Other endpoints at http://localhost:8080/swagger-ui/index.html
