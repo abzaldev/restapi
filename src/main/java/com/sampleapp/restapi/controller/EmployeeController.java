@@ -1,7 +1,7 @@
 package com.sampleapp.restapi.controller;
 
-import com.sampleapp.restapi.service.EmployeeService;
 import com.sampleapp.restapi.dto.*;
+import com.sampleapp.restapi.service.EmployeeService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;

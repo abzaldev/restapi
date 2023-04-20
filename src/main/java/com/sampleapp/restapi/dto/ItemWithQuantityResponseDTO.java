@@ -1,6 +1,8 @@
 package com.sampleapp.restapi.dto;
 
-import lombok.*;
+import lombok.Builder;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Data
 @Builder
