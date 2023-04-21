@@ -63,7 +63,7 @@ public class EmployeeController {
             @ApiResponse(responseCode = "404", description = "Employees not found",
                     content = @Content)})
     @GetMapping("/summary")
-    public Page<EmployeeAssetsDto> searchEmployeesSummary(
+    public Page<EmployeeAssetsDTO> searchEmployeesSummary(
             @RequestParam(required = false, defaultValue = "") String name,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size,

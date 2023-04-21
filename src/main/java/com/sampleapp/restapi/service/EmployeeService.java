@@ -162,14 +162,14 @@ public class EmployeeService {
         return mapEmployeePageToEmployeeWithItemsPage(employeePageList);
     }
 
-    public Page<EmployeeAssetsDto> employeeAssetsFindByNameContaining(String name, Pageable pageable) {
+    public Page<EmployeeAssetsDTO> employeeAssetsFindByNameContaining(String name, Pageable pageable) {
         Page<Employee> employeePageList = employeeRepository.findByNameContaining(name, pageable);
         return mapEmployeePageToEmployeeAssetsDtoPage(employeePageList);
     }
 
 
-    public Page<EmployeeAssetsDto> mapEmployeePageToEmployeeAssetsDtoPage(Page<Employee> employeePage) {
-        return employeePage.map(employee -> EmployeeAssetsDto.builder()
+    public Page<EmployeeAssetsDTO> mapEmployeePageToEmployeeAssetsDtoPage(Page<Employee> employeePage) {
+        return employeePage.map(employee -> EmployeeAssetsDTO.builder()
                 .id(employee.getId())
                 .name(employee.getName())
                 .itemQuantity(employee.getEmployeeItems().size())

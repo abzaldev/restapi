@@ -29,6 +29,7 @@ INSERT INTO employee (id, name) VALUES (28, 'Benjamin Lee');
 INSERT INTO employee (id, name) VALUES (29, 'Catherine Williams');
 INSERT INTO employee (id, name) VALUES (30, 'Daniel Smith');
 
+
 INSERT INTO item (id, name, price) VALUES (1, 'HP Laptop Probook G9', 1500.00);
 INSERT INTO item (id, name, price) VALUES (2, 'Apple iPhone 13', 999.00);
 INSERT INTO item (id, name, price) VALUES (3, 'Samsung Galaxy S21', 799.99);
@@ -84,6 +85,7 @@ INSERT INTO item (id, name, price) VALUES (52, 'Microsoft Surface Go 3', 399.99)
 INSERT INTO item (id, name, price) VALUES (53, 'Sony WF-1000XM4', 279.99);
 INSERT INTO item (id, name, price) VALUES (54, 'Nvidia GeForce RTX 3080', 699.99);
 INSERT INTO item (id, name, price) VALUES (55, 'Samsung Odyssey G9', 1499.99);
+
 
 INSERT INTO employee_item (id, quantity, employee_id, item_id) VALUES (1, 2, 1, 1);
 INSERT INTO employee_item (id, quantity, employee_id, item_id) VALUES (2, 3, 2, 2);

@@ -9,7 +9,7 @@ import lombok.ToString;
 @Builder
 @RequiredArgsConstructor
 @ToString
-public class EmployeeAssetsDto {
+public class EmployeeAssetsDTO {
 
     private final Long id;
 
